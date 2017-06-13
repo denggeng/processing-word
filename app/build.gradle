@@ -5,7 +5,7 @@ android {
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "in.omerjerk.processingdemo"
+        applicationId "me.denggeng.processingword"
         minSdkVersion 11
         targetSdkVersion 22
         versionCode 1
