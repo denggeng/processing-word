@@ -15,6 +15,7 @@ import android.view.View;
 
 import me.denggeng.processingword.sketch.Directional;
 import me.denggeng.processingword.sketch.Particles;
+import me.denggeng.processingword.sketch.Particles2;
 import me.denggeng.processingword.sketch.Reflection;
 import processing.core.PApplet;
 
@@ -88,6 +89,9 @@ public class MainActivity extends AppCompatActivity
                 fragment = new Particles();
                 break;
             case 3:
+                fragment = new Particles2();
+                break;
+            case 4:
                 fragment = new PApplet();
                 break;
             default:

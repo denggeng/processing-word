@@ -15,4 +15,5 @@ public class EmptySketch extends PApplet {
         super.onAttach(activity);
         ((MainActivity) activity).onSectionAttached(1);
     }
+
 }
